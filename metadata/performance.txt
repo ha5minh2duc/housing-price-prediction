@@ -1,0 +1,34 @@
+D:\biennn1\venv\housing_venv\housing_venv\python.exe D:/python/minimum_housing/src/final.py
+running model to check  performance
+----------------------------------------------------------------------------------------------------------------------------------------
+KEY=__ALL__     | TRAIN| MAE=4,762,489 | MAPE=13.31 | R2=81.72 | COUNT=41,922||TEST| MAE=7,413,190 | MAPE=21.22 | R2=59.8 | COUNT=4,659
+KEY=CMV         | TRAIN| MAE=1,925,055 | MAPE=6.38  | R2=94.29 | COUNT=8,679 ||TEST| MAE=4,539,304 | MAPE=15.98 | R2=70.63|   COUNT=964
+KEY=BDS1        | TRAIN| MAE=6,570,281 | MAPE=17.59 | R2=72.79 | COUNT=4,929 ||TEST| MAE=9,489,255 | MAPE=24.85 | R2=44.79|   COUNT=548
+KEY=BDS5        | TRAIN| MAE=7,171,339 | MAPE=17.61 | R2=68.2  | COUNT=4,034 ||TEST| MAE=8,692,421 | MAPE=23.87 | R2=51.77|   COUNT=448
+KEY=CHOTOT2     | TRAIN| MAE=3,188,225 | MAPE=12.84 | R2=90.9  | COUNT=3,971 ||TEST| MAE=5,798,255 | MAPE=22.92 | R2=62.58|   COUNT=441
+KEY=BDS6        | TRAIN| MAE=7,340,263 | MAPE=18.34 | R2=68.52 | COUNT=3,083 ||TEST| MAE=9,620,582 | MAPE=22.93 | R2=34.68|   COUNT=342
+KEY=ALO_NHA_DAT1| TRAIN| MAE=3,584,029 | MAPE=11.32 | R2=94.91 | COUNT=2,940 ||TEST| MAE=8,553,486 | MAPE=22.86 | R2=66.77|   COUNT=327
+KEY=BDS7        | TRAIN| MAE=6,487,858 | MAPE=16.1  | R2=77.5  | COUNT=2,657 ||TEST| MAE=9,588,918 | MAPE=23.34 | R2=54.49|   COUNT=295
+KEY=BDS2        | TRAIN| MAE=7,257,240 | MAPE=17.96 | R2=69.53 | COUNT=2,300 ||TEST| MAE=8,988,802 | MAPE=22.62 | R2=54.08|   COUNT=256
+KEY=CHO_TOT     | TRAIN| MAE=2,664,198 | MAPE=10.21 | R2=93.39 | COUNT=2,248 ||TEST| MAE=7,453,241 | MAPE=25.86 | R2=56.94|   COUNT=250
+KEY=DOTHI       | TRAIN| MAE=4,064,867 | MAPE=10.85 | R2=75.32 | COUNT=1,843 ||TEST| MAE=5,878,800 | MAPE=17.03 | R2=43.88|   COUNT=205
+KEY=ALO_NHA_DAT2| TRAIN| MAE=3,445,260 | MAPE=10.26 | R2=93.89 | COUNT=1,841 ||TEST| MAE=6,116,007 | MAPE=17.28 | R2=86.42|   COUNT=205
+KEY=BDS3        | TRAIN| MAE=7,494,922 | MAPE=18.62 | R2=65.34 | COUNT=1,601 ||TEST| MAE=8,299,708 | MAPE=19.4  | R2=55.3 |   COUNT=178
+KEY=BDS4        | TRAIN| MAE=7,120,724 | MAPE=18.18 | R2=71.24 | COUNT=1,077 ||TEST| MAE=8,593,217 | MAPE=21.67 | R2=50.77|   COUNT=120
+KEY=HOMEDY      | TRAIN| MAE=3,313,264 | MAPE=12.43 | R2=89.03 | COUNT=719   ||TEST| MAE=5,786,787 | MAPE=18.92 | R2=51.58|    COUNT=80
+----------------------------------------------------------------------------------------------------------------------------------------
+
+save processed data at  D:\data\housing\house\processed\final_data_20220815_with_code.csv
+
+
+Process finished with exit code 0
+
+
+back test final model:
+count=10002 mape = 18.17     mae = 7051000 r2=69.18 mean1=40,036,000 mean2=40,081,000    median1 = 35,256,000 median2=36,702,000
+
+nếu chỉ chạy trên tập backtest của cmv hn, performance đang là:
+
+count=9643 mape = 6.88    mae = 2081000 r2=93.53 mean1=32,170,000 mean2=32,247,000    median1 = 30,020,000 median2=30,633,000
+
+Kết luận: Kết quả tốt, không có j bất thường
